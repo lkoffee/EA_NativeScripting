@@ -1,5 +1,5 @@
 utxoin="0172071937c726836d15e477327e2a89376944941f34364a2222913a75fa6a6f#4"
-policyid=$(cat monetary.pid)
+policyid=$(cat monetary.pid) 
 address=$nami
 output="22000000"
 tokenname=$(echo -n "MrWo4nderfullCoin" | xxd -ps | tr -d '\n')

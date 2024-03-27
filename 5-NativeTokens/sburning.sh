@@ -7,7 +7,6 @@ tokenammount="-1650"
 collateral="4cbf990857530696a12b0062546a4b123ad0bef21c67562e32d03e3288bdcd7b#0"
 signerPKH="697a501b7d05766b3d08e39dab43e0f170973d3398b28745b3b8ce55"
 
-
 cardano-cli query protocol-parameters --testnet-magic 2 --out-file protocol.params
 
 cardano-cli transaction build \
@@ -18,7 +17,7 @@ cardano-cli transaction build \
   --tx-in-collateral $collateral \
   --tx-out $Adr01+$output \
   --change-address $nami \
-  --mint "$tokenammount $policyid.$tokenname" \
+  --mint "$tokenammount $policyid.$tokenname" \ 
   --mint-script-file policy.script \
   --invalid-before 26057313 \
   --protocol-params-file protocol.params \
