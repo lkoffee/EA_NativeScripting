@@ -1,0 +1,43 @@
+{
+    "type": "any",
+    "scripts": [
+        {
+            "type": "before",
+            "slot": 45000000,
+            "scripts": [
+                {
+                    "type": "any",
+                    "scripts": [
+                        {
+                            "type": "sig",
+                            "keyHash": "8db8c4244accf4e5233a3d98c0a35b6b5c38590666d69398a6651781"
+                        },
+                        {
+                            "type": "sig",
+                            "keyHash": "c75484a0ab2d4da6114a8ca42500ca7d1000e06b027665fc70de82d5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "after",
+            "slot": 45000000,
+            "scripts": [
+                {
+                    "type": "all",
+                    "scripts": [
+                        {
+                            "type": "sig",
+                            "keyHash": "8db8c4244accf4e5233a3d98c0a35b6b5c38590666d69398a6651781"
+                        },
+                        {
+                            "type": "sig",
+                            "keyHash": "c75484a0ab2d4da6114a8ca42500ca7d1000e06b027665fc70de82d5"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
